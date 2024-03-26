@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    width: 360px;
+    height: 580px;
+    background-color: #fff;
+}
+
+.result {
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: 130px;
+    color: wheat;
+    background-color: #091042;
+    display: flex;
+    align-items: center;
+}
+
+.output {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.buttons {
+    background-color: #091042;
+    width: inherit;
+    height: calc(580px - 130px);
+    position: absolute;
+    bottom: 0;
+}
+
+.row {
+    width: inherit;
+    height: 80px;
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    background-color: #080d33;
+    border: none;
+    box-shadow: -1px -1px rgba(255, 255, 255, 0.653);
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    font-size: larger;
+    color: wheat;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #5e5d5d15;
+}
+
+.row5 .eql{
+    width: 158px;
+}
